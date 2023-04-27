@@ -25,7 +25,7 @@
         <projections>0</projections>
         <destinationsrs>
             <spatialrefsys>
-                <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                <proj4>+proj=longlat +datum=WGS84 +no_defs +type=crs</proj4>
                 <srsid>3452</srsid>
                 <srid>4326</srid>
                 <authid>EPSG:4326</authid>
@@ -73,7 +73,7 @@
             <layername>cultivable_zones</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs +type=crs</proj4>
                     <srsid>3452</srsid>
                     <srid>4326</srid>
                     <authid>EPSG:4326</authid>
@@ -161,7 +161,7 @@
             <layername>equipments</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs +type=crs</proj4>
                     <srsid>3452</srsid>
                     <srid>4326</srid>
                     <authid>EPSG:4326</authid>
@@ -249,7 +249,7 @@
             <layername>geolocations</layername>
             <srs>
                 <spatialrefsys>
-                    <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+                    <proj4>+proj=longlat +datum=WGS84 +no_defs +type=crs</proj4>
                     <srsid>3452</srsid>
                     <srid>4326</srid>
                     <authid>EPSG:4326</authid>
@@ -335,7 +335,7 @@
     </projectlayers>
     <properties>
         <SpatialRefSys>
-            <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+            <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs +type=crs</ProjectCRSProj4String>
             <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
             <ProjectCRSID type="int">3452</ProjectCRSID>
         </SpatialRefSys>
